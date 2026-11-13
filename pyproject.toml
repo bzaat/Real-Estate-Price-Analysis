@@ -1,0 +1,20 @@
+[project]
+name = "real-estate-price-analysis"
+version = "0.1.0"
+description = "Melbourne housing price analysis and the figures for the SCI-2026 suburb-encoding paper"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "category_encoders",
+    "xgboost",
+    "lightgbm",
+    "shap",
+    "matplotlib",
+    "seaborn",
+]
+
+[tool.uv]
+package = false
